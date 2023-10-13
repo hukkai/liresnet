@@ -1,0 +1,28 @@
+model:
+    depth: 12
+    width: 512
+    use_lln: True
+    num_lc_iter: 10
+    act_name: 'MinMax'
+
+training:
+    batch_size: 256
+    epochs: 800
+    warmup_epochs: 20
+    lr: 0.001
+    weight_decay: 0.0
+    grad_clip: True
+    grad_clip_val: 3
+    nadam: True
+    lookahead: True
+
+dataset:
+    name: 'cifar100'
+    num_classes: 100
+    input_size: 32
+
+gloro:
+    eps: 0.1411764705882353
+    min_eps: 0.1
+    max_eps: 3.0
+    loss_type: 'emma_loss'
