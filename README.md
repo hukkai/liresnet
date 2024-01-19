@@ -4,8 +4,7 @@
 This repository provides the implementation of our cutting-edge research on certifiable robust models. We proudly present the LiResNet model introduced at NeurIPS 2023 and its subsequent improvements now available as a preprint on arXiv. Our works are based on the training and certification schemes in [GloRo Nets](https://arxiv.org/abs/2102.08452). 
 
 - [NeurIPS 2023] [Unlocking Deterministic Robustness Certification on ImageNet](https://arxiv.org/abs/2301.12549)
-- [Preprint] [A Recipe for Improved Certifiable Robustness: Capacity and Data](https://arxiv.org/abs/2310.02513)
-  - [Direct Paper Download](https://arxiv.org/pdf/2310.02513.pdf)
+- [ICLR 2024] [Effectively Leveraging Capacity for Improved Deterministic Robustness Certification](https://openreview.net/forum?id=qz3mcn99cu)
 
 
 ## 🚀 Getting Started:
