@@ -77,7 +77,7 @@ def main():
 
     aug_loader, aug_sampler, _, _ = tools.data_loader(
         data_name='ddpm',
-        batch_size=train_cfg['batch_size'] // num_gpus,
+        batch_size=train_cfg['batch_size'] // num_gpus * 3,
         num_classes=dataset_cfg['num_classes'],
         seed=dataset_cfg.get('seed', 2023))
     aug_iter = iter(aug_loader)
